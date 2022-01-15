@@ -15,12 +15,14 @@ body * {
 }
 .section-text__subtitle {
   font-family: "playfair display";
-  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
   padding-bottom: 66px;
 }
 .section-text__paragraph {
   font-family: "roboto", sans-serif;
-  letter-spacing: 2px;
+  font-weight: 16px;
+  letter-spacing: 1px;
   line-height: 40px;
   padding-bottom: 60px;
 }
@@ -33,7 +35,7 @@ body * {
   border-radius: 20%;
   height: 40px;
   width: 150px;
-  border: 1px solid black;
+  border: 1px solid #121619;
   background-color: #d1d1d1;
 }
 
@@ -42,7 +44,7 @@ body * {
   height: 40px;
   width: 150px;
   border: 1px solid black;
-  background-color: #d1d1d1;
+  background-color: #e6e7e7;
 }
 
 .naomi-section {
@@ -65,6 +67,7 @@ body * {
 }
 .naomi-section__mail-naomi {
   font-family: 12px;
+  color: #d76c69;
 }
 .naomi-section__parrafo-naomi {
   font-family: "roboto";
@@ -74,9 +77,11 @@ body * {
   font-size: 16px;
   font-weight: 900;
   font-style: italic;
+  color: #121619;
 }
 .naomi-section__web-naomi {
   font-family: "roboto";
+  color: #d76c69;
 }
 
 .post-header {
@@ -109,7 +114,7 @@ body * {
 }
 
 .nav-block {
-  background: #121619;
+  background-color: #121619;
   padding: 10px;
 }
 .nav-block__logo-nav {

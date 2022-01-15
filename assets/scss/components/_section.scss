@@ -4,13 +4,17 @@
     
     &__subtitle{
         font-family: 'playfair display';
-        font-style: italic;
+        font-weight: $regular;
+        font-size: $roboto-light-medium ;
         padding-bottom: 66px;
     }
+
+    
     
     &__paragraph{
         font-family: 'roboto',sans-serif ;
-        letter-spacing: 2px;
+        font-weight: $roboto-light-medium;
+        letter-spacing: 1px;
         line-height: 40px;
         padding-bottom: 60px;
       
@@ -29,8 +33,8 @@
     border-radius: 20%;
     height: 40px;
     width: 150px;
-    border: 1px solid black;
-    background-color: #d1d1d1;
+    border: 1px solid $eerie-black;
+    background-color: $light-gray;
 
 }
 .botones-twiter{
@@ -38,7 +42,7 @@
     height: 40px;
     width: 150px;
     border: 1px solid black;
-    background-color: #d1d1d1;
+    background-color: $platinum;
 
 }
 
@@ -67,6 +71,7 @@
     
     &__mail-naomi{
         font-family: 12px;
+        color: $ruddy-pink;
 
     }
     
@@ -80,10 +85,12 @@
         font-size: 16px;
         font-weight: 900;
         font-style: italic;
+        color: $eerie-black
 
     }
     &__web-naomi{
         font-family: 'roboto';
+        color: $ruddy-pink;
 
     }
 
