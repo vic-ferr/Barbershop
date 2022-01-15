@@ -1,0 +1,90 @@
+.section-text{
+    background-color: $color-white;
+    padding-top: 66px;
+    
+    &__subtitle{
+        font-family: 'playfair display';
+        font-style: italic;
+        padding-bottom: 66px;
+    }
+    
+    &__paragraph{
+        font-family: 'roboto',sans-serif ;
+        letter-spacing: 2px;
+        line-height: 40px;
+        padding-bottom: 60px;
+      
+        
+    }
+
+    &nico{
+        justify-content: start;
+        align-items: center;
+        
+    }
+}
+
+
+.botones-compartir{
+    border-radius: 20%;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #d1d1d1;
+
+}
+.botones-twiter{
+    border-radius: 20%;
+    height: 40px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #d1d1d1;
+
+}
+
+.naomi-section{
+    display: inline-block;
+    height: 365px;
+   
+
+    &__img-div{
+        margin-top: 70px;
+
+    }
+
+    &__img-naomi{
+        display: block;
+        align-items: center;
+        border-radius: 50%;
+        margin:auto;
+        width: 131px;
+        height: 133px;
+
+    }
+    &__redes-naomi{
+        text-align: center;
+    }
+    
+    &__mail-naomi{
+        font-family: 12px;
+
+    }
+    
+    &__parrafo-naomi{
+        font-family: 'roboto';
+
+    }
+    
+    &__title-naomi{
+        font-family: 'playfair display';
+        font-size: 16px;
+        font-weight: 900;
+        font-style: italic;
+
+    }
+    &__web-naomi{
+        font-family: 'roboto';
+
+    }
+
+    }

@@ -1,0 +1,151 @@
+body * {
+  font-family: "roboto", sans-serif;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.section-text {
+  background-color: #fff;
+  padding-top: 66px;
+}
+.section-text__subtitle {
+  font-family: "playfair display";
+  font-style: italic;
+  padding-bottom: 66px;
+}
+.section-text__paragraph {
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+  line-height: 40px;
+  padding-bottom: 60px;
+}
+.section-textnico {
+  justify-content: start;
+  align-items: center;
+}
+
+.botones-compartir {
+  border-radius: 20%;
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: #d1d1d1;
+}
+
+.botones-twiter {
+  border-radius: 20%;
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: #d1d1d1;
+}
+
+.naomi-section {
+  display: inline-block;
+  height: 365px;
+}
+.naomi-section__img-div {
+  margin-top: 70px;
+}
+.naomi-section__img-naomi {
+  display: block;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+  width: 131px;
+  height: 133px;
+}
+.naomi-section__redes-naomi {
+  text-align: center;
+}
+.naomi-section__mail-naomi {
+  font-family: 12px;
+}
+.naomi-section__parrafo-naomi {
+  font-family: "roboto";
+}
+.naomi-section__title-naomi {
+  font-family: "playfair display";
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+}
+.naomi-section__web-naomi {
+  font-family: "roboto";
+}
+
+.post-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 720px;
+}
+.post-header__title {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: black;
+  font-style: italic;
+  font-size: 40px;
+  color: #fff;
+  width: 315px;
+  height: 160px;
+}
+.post-header__box-icon {
+  position: absolute;
+}
+.post-header__icon {
+  position: relative;
+  top: 300px;
+  color: #fff;
+}
+
+.nav-block {
+  background: #121619;
+  padding: 10px;
+}
+.nav-block__logo-nav {
+  width: 78.37px;
+  height: 45.64px;
+}
+.nav-block .link-nav {
+  justify-content: end;
+}
+
+.btn {
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.section-botones__previous-next {
+  height: 156px;
+  background-color: grey;
+}
+
+.pagination {
+  padding-top: 50px;
+}
+
+.section-footer {
+  background-color: black;
+  height: 206px;
+  padding: 100px;
+}
+
+.section-footer__img-footer {
+  display: block;
+  margin: auto;
+  width: 81px;
+  height: 34px;
+}
+
+/*# sourceMappingURL=style.css.map */

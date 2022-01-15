@@ -1,0 +1,55 @@
+//abstrac
+@import "abstract/variables";
+@import "abstract/mixsins";
+@import "abstract/funtions";
+
+//base
+@import "base/typography";
+@import "base/reset";
+
+//components
+@import "components/section";
+
+//layout
+@import "layout/layout";
+@import "layout/header";
+@import "layout/nav";
+
+//pages
+@import "pages/home";
+
+//themes
+@import "themes/theme";
+
+//vendors
+@import "vendors/vendor";
+
+.btn{
+    justify-content: center;
+    border-radius: 20px;
+   margin-bottom: 40px;
+}
+
+.section-botones__previous-next{
+    height: 156px;
+    background-color: grey;
+}
+
+.pagination{
+    padding-top: 50px;
+
+}
+
+.section-footer{
+    
+    background-color: black;
+    height: 206px;
+    padding: 100px;
+}
+
+.section-footer__img-footer{
+    display: block;
+    margin: auto;
+    width: 81px;
+    height: 34px;;
+}

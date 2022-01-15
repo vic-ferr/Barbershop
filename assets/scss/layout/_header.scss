@@ -1,0 +1,41 @@
+
+
+
+.post-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 720px;
+
+   
+    
+    &__title{
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-weight: black;
+        font-style: italic;
+        font-size: 40px;
+        color: $color-white;
+        width: 315px;
+        height: 160px;
+    
+
+    }
+    &__box-icon{
+    position: absolute;
+    }
+
+    &__icon{
+
+        position: relative;
+        top: 300px;
+        color: $color-white;
+        // line-height: 30px;
+    }
+
+}
+
