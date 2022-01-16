@@ -1,6 +1,10 @@
+//seccion parrafo principal
+
+
 .section-text{
     background-color: $color-white;
     padding-top: 66px;
+    border-bottom: 1px solid #d1d1d1;
     
     &__subtitle{
         font-family: 'playfair display';
@@ -16,55 +20,40 @@
         font-weight: $roboto-light-medium;
         letter-spacing: 1px;
         line-height: 40px;
-        padding-bottom: 60px;
-      
-        
+        padding-bottom: 60px; 
     }
 
-    &nico{
-        justify-content: start;
-        align-items: center;
-        
+    &__br{
+        margin-bottom: 40px;
     }
-}
-
-
-.botones-compartir{
-    border-radius: 20%;
-    height: 40px;
-    width: 150px;
-    border: 1px solid $eerie-black;
-    background-color: $light-gray;
 
 }
-.botones-twiter{
-    border-radius: 20%;
-    height: 40px;
-    width: 150px;
-    border: 1px solid black;
-    background-color: $platinum;
 
-}
+
+
+//seccion naomi thai
 
 .naomi-section{
-    display: inline-block;
     height: 365px;
    
 
-    &__img-div{
-        margin-top: 70px;
+    // &__img-div{
+    //     margin-top: 50px;
 
-    }
+    // }
 
     &__img-naomi{
-        display: block;
-        align-items: center;
+        // align-items: center;
         border-radius: 50%;
-        margin:auto;
-        width: 131px;
-        height: 133px;
+        margin:50px;
+        width: 125px;
+        height: 131px;
+
+        padding: 20px;
 
     }
+
+
     &__redes-naomi{
         text-align: center;
     }
@@ -81,6 +70,7 @@
     }
     
     &__title-naomi{
+       
         font-family: 'playfair display';
         font-size: 16px;
         font-weight: 900;
@@ -94,4 +84,4 @@
 
     }
 
-    }
+}

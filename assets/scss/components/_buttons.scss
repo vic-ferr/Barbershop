@@ -1,5 +1,22 @@
 .box-button{
-    margin: 60px 0;
-    width: 30px;
-    
-}
+   
+
+    &__twiter{
+ 
+     border-radius: 20%;
+     height: 40px;
+     width: 150px;
+     border: 1px solid $eerie-black;
+     background-color: $light-gray;
+ 
+ 
+     
+     // border-radius: 20%;
+     // height: 40px;
+     // width: 150px;
+     // border: 1px solid black;
+     // background-color: $platinum;
+ 
+ }
+ 
+ }

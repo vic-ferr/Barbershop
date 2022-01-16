@@ -12,6 +12,7 @@ body * {
 .section-text {
   background-color: #fff;
   padding-top: 66px;
+  border-bottom: 1px solid #d1d1d1;
 }
 .section-text__subtitle {
   font-family: "playfair display";
@@ -26,41 +27,19 @@ body * {
   line-height: 40px;
   padding-bottom: 60px;
 }
-.section-textnico {
-  justify-content: start;
-  align-items: center;
-}
-
-.botones-compartir {
-  border-radius: 20%;
-  height: 40px;
-  width: 150px;
-  border: 1px solid #121619;
-  background-color: #d1d1d1;
-}
-
-.botones-twiter {
-  border-radius: 20%;
-  height: 40px;
-  width: 150px;
-  border: 1px solid black;
-  background-color: #e6e7e7;
+.section-text__br {
+  margin-bottom: 40px;
 }
 
 .naomi-section {
-  display: inline-block;
   height: 365px;
 }
-.naomi-section__img-div {
-  margin-top: 70px;
-}
 .naomi-section__img-naomi {
-  display: block;
-  align-items: center;
   border-radius: 50%;
-  margin: auto;
-  width: 131px;
-  height: 133px;
+  margin: 50px;
+  width: 125px;
+  height: 131px;
+  padding: 20px;
 }
 .naomi-section__redes-naomi {
   text-align: center;
@@ -84,6 +63,18 @@ body * {
   color: #d76c69;
 }
 
+.nav-block {
+  background-color: #121619;
+  padding: 10px;
+}
+.nav-block__logo-nav {
+  width: 78.37px;
+  height: 45.64px;
+}
+.nav-block .link-nav {
+  justify-content: end;
+}
+
 .post-header {
   display: flex;
   justify-content: center;
@@ -91,8 +82,8 @@ body * {
   background-image: url(../img/post-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
   height: 720px;
+  width: 100%;
 }
 .post-header__title {
   text-align: center;
@@ -113,22 +104,24 @@ body * {
   color: #fff;
 }
 
-.nav-block {
-  background-color: #121619;
-  padding: 10px;
+@media screen and (max-width: 480px) {
+  .post-header {
+    background-image: url(../img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 1200px;
+  }
 }
-.nav-block__logo-nav {
-  width: 78.37px;
-  height: 45.64px;
+.section-footer {
+  background-color: black;
+  height: 206px;
+  padding: 100px;
 }
-.nav-block .link-nav {
-  justify-content: end;
-}
-
-.btn {
-  justify-content: center;
-  border-radius: 20px;
-  margin-bottom: 40px;
+.section-footer__img-footer {
+  display: block;
+  margin: auto;
+  width: 81px;
+  height: 34px;
 }
 
 .section-botones__previous-next {
@@ -138,19 +131,6 @@ body * {
 
 .pagination {
   padding-top: 50px;
-}
-
-.section-footer {
-  background-color: black;
-  height: 206px;
-  padding: 100px;
-}
-
-.section-footer__img-footer {
-  display: block;
-  margin: auto;
-  width: 81px;
-  height: 34px;
 }
 
 /*# sourceMappingURL=style.css.map */
