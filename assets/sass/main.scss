@@ -9,6 +9,7 @@
 
 //components
 @import "components/section";
+@import "components/buttons";
 
 //layout
 @import "layout/layout";
@@ -25,19 +26,6 @@
 //vendors
 @import "vendors/vendor";
 
-// .btn{
-//     justify-content: center;
-//     border-radius: 20px;
-//    margin-bottom: 40px;
-// }
 
-.section-botones__previous-next{
-    height: 156px;
-    background-color: grey;
-}
 
-.pagination{
-    padding-top: 50px;
-
-}
 

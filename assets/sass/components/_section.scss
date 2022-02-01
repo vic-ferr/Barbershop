@@ -1,0 +1,140 @@
+//seccion parrafo principal
+
+
+.section-text{
+    background-color: $color-white;
+    padding-top: 66px;
+    border-bottom: 1px solid #d1d1d1;
+    
+    &__subtitle{
+        font-family: 'playfair display';
+        font-weight: $regular;
+        font-size: $roboto-light-medium ;
+        padding-bottom: 66px;
+        color: $raisin-black;
+    }
+
+    
+    
+    &__paragraph{
+        font-family: 'roboto',sans-serif ;
+        font-weight: 16px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        padding-bottom: 60px; 
+    }
+
+    &__br{
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+//seccion naomi thai
+
+.naomi-section{
+    display: flex;
+    height: 330px;
+   
+
+    &__img-naomi{
+        // align-items: center;
+        border-radius: 50%;
+        margin-top: 52px;
+        margin-bottom: 92px;
+        margin-left:100px;
+        width: 177px;
+        height: 180px;
+        padding: 20px;
+
+    }
+
+
+    &__redes-naomi{
+        text-align: center;
+        margin-top: 97px;
+    }
+
+    &__title-naomi{
+        font-family: $font-secondary;
+        font-size: $playfair-italica-x-large;
+        color: $eerie-black;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        width: 264px;
+        height: 40px;
+    }
+    
+    &__mail-naomi{
+        font-family: $font-primary;
+        font-size: $roboto-light-large;
+        color: $ruddy-pink;
+
+    }
+    
+    &__web-naomi{
+        font-family:$font-primary;
+        font-size: $roboto-light-large;
+        color: $ruddy-pink;
+
+    }
+
+    &__parrafo-naomi{
+        font-family: $font-primary;
+        font-weight: $regular;
+        font-size: $roboto-regular-small;
+        width: 617px;
+        height: 104px;
+        line-height: 2;
+        letter-spacing: 1px;
+        color: $plata;
+        opacity: 1px;
+        margin:103px 60px 123px 20px;
+
+    }
+    
+    @media screen and (max-width:992px) {
+        &__parrafo-naomi{
+             display: none;
+        }
+    
+    }
+
+    @media screen and (max-width: 576px) {
+        &__naomi-section{
+             display: block;
+             height: 365px;
+        }
+        &__redes-naomi{
+            display: inline-block;
+        }
+        &__img-naomi{
+            width: 131px;
+            height: 133px;
+        }
+
+        &__title-naomi{
+            font-family: $font-secondary;
+           font-size: $playfair-italica-x-large;
+
+        }
+
+        &__mail-naomi{
+            font-family: $font-primary;
+            font-size: $roboto-light-medium;
+
+        }
+
+        &__web-naomi{
+            font-family: $font-primary;
+            font-size: $roboto-light-medium;
+
+        }
+
+    
+    }
+
+}

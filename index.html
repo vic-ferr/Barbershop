@@ -37,6 +37,7 @@
     <title>BarberShop</title>
   </head>
   <body>
+    
     <!--barra de navegacion-->
 
     <nav class="navbar navbar-expand-lg navbar-dark nav-block">
@@ -120,93 +121,82 @@
           >interdum tempus. Integer sodales tincidunt imperdiet. Aenean ornare
           at tortor sed facilisis. Nulla gravida turpis ac ullamcorper iaculis.
           Cras fringilla felis id nibh efficitur ornare. Aenean accumsan orci
-          sit amet semper eleifend. Proin quis tortor ante. Cras fermentum urna
-          a felis placerat, eget malesuada ipsum placerat. Fusce scelerisque,
-          leo quis auctor lacinia, mauris justo porta enim, eget dictum nisi
-          sapien eget ex. Fusce in eros purus. Fusce volutpat nisi purus, ac
-          vehicula ipsum sollicitudin in. Praesent ultrices semper massa, eu
-          pellentesque purus vehicula non. Praesent tincidunt convallis ipsum,
-          quis convallis metus. Vivamus ac gravida lectus, eget ultricies nunc.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam
-          tristique pulvinar est at tristique. Vestibulum non blandit ex.
-          Suspendisse ipsum justo, feugiat eu feugiat et, condimentum sit amet
-          ipsum. Pellentesque eu vulputate dolor. Aliquam pretium arcu nec
-          aliquet varius.</spam
+          sit amet semper eleifend.<br class="section-text__br" />
+          Proin quis tortor ante. Cras fermentum urna a felis placerat, eget
+          malesuada ipsum placerat. Fusce scelerisque, leo quis auctor lacinia,
+          mauris justo porta enim, eget dictum nisi sapien eget ex.<br
+            class="section-text__br"
+          />
+          Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum
+          sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus
+          vehicula non. Praesent tincidunt convallis ipsum, quis convallis
+          metus. Vivamus ac gravida lectus, eget ultricies nunc. Interdum et
+          malesuada fames ac ante ipsum primis in faucibus. Nullam tristique
+          pulvinar est at tristique. Vestibulum non blandit ex. Suspendisse
+          ipsum justo, feugiat eu feugiat et, condimentum sit amet ipsum.
+          Pellentesque eu vulputate dolor. Aliquam pretium arcu nec aliquet
+          varius.</spam
         >
       </p>
-    </section>
-    <!--fin de seccion uno parrafo-->
 
-    <!--inicio de seccion uno botones -->
+      <!--fin de seccion parrafo-->
 
-    <div class="box-button container">
-      <div class="row">
-        <div class="col">
-          <button class="box-button__compartir" type="button">Compartir</button>
-        </div>
+      <!--inicio de seccion botones -->
 
-        <div class="col">
-          <button class="box-button__compartir" type="summit">
-            Compartir en Twiter
-          </button>
-        </div>
+      <div class="box-button container">
+        <button class="box-button__compartir">Compartir</button>
+
+        <button class="box-button__compartir-twiter">
+          Compartir en Twiter
+        </button>
       </div>
-    </div>
-
+    </section>
     <!--fin de seccion uno -->
 
-    <!--inicio de seccion dos -->
+    <!--inicio de seccion dos  -->
 
     <section class="container naomi-section">
-      <div class="row">
-        <div class="col-4 col-sm-12">
-          <!-- <div class="naomi-section__img-div"> -->
-            <img
-              class="naomi-section__img-naomi"
-              loading="lazy"
-              src="assets/img/naomi-thai.png"
-              alt="naomi"
-            />
-          </div>
-        <!-- </div> -->
+      <div class="">
+        <img
+          class="naomi-section__img-naomi"
+          loading="lazy"
+          src="assets/img/naomi-thai.png"
+          alt="naomi"
+        />
+      </div>
 
-        <div class="col-4 col-sm-12">
-          <div class="naomi-section__redes-naomi">
-            <h3 class="naomi-section__title-naomi">Naomi Thai</h3>
-            <h4 class="naomi-section__mail-naomi">@Naothai</h4>
-            <h4 class="naomi-section__web-naomi">depelos.com</h4>
-          </div>
-        </div>
+      <div class="naomi-section__redes-naomi">
+        <h3 class="naomi-section__title-naomi">Naomi Thai</h3>
+        <h4 class="naomi-section__mail-naomi">@Naothai</h4>
+        <h4 class="naomi-section__web-naomi">depelos.com</h4>
+      </div>
 
-        <div class="col-4 col-sm-12 d-none d-sm-block">
-          <p class="naomi-section__parrafo-naomi">
-            Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum
-            sollicitudin in. Praesent ultrices semper massa, eu pellentesque
-            purus vehicula non. Praesent tincidunt convallis ipsum, quis
-            convallis metus.
-          </p>
-        </div>
+      <div class="naomi-section__parrafo-naomi">
+        <p>
+          Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum
+          sollicitudin in. Praesent ultrices semper massa, eu pellentesque purus
+          vehicula non. Praesent tincidunt convallis ipsum, quis convallis
+          metus.
+        </p>
       </div>
     </section>
-
-
 
     <!--fin de seccion dos -->
 
     <!--inicio de seccion tres botones anterior y siguiente -->
-    <section class="container-fluid section-botones__previous-next">
-      <nav aria-label="...">
-        <ul class="pagination">
-          <li class="page-item disabled">
-            <span class="page-link rounded-pill">Previous</span>
+    <section class="container-fluid section-botones">
+      <nav class="section-botones__nav">
+        <ul class="section-botones__border-ul">
+          <li class="section-botones__border-li-previous">
+            <a class="section-botones__a-previous">Previous</a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item active" aria-current="page">
-            <span class="page-link">2</span>
+          <li class="section-botones__border-li"><a class="section-botones__a" href="#">1</a></li>
+          <li class="section-botones__border-li">
+            <a class="section-botones__a">2</a>
           </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
+          <li class="section-botones__border-li"><a class="section-botones__a" href="#">3</a></li>
+          <li class="section-botones__border-li-next">
+            <a class="section-botones__a-next" href="#">Next</a>
           </li>
         </ul>
       </nav>

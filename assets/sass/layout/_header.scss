@@ -7,9 +7,9 @@
     align-items: center;
     background-image: url(../img/post-image.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
     height: 720px;
-    width: 100%;
+    max-width: 100%;
 
    
     
@@ -44,7 +44,8 @@
      .post-header{
       background-image: url(../img/post-image.jpg);
       background-repeat: no-repeat;
-      background-position:cover;
+      background-position: center;
+    
       width: 1200px;
     }
     

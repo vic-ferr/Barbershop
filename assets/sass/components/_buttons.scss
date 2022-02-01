@@ -1,0 +1,140 @@
+.box-button{
+    display: block;
+    height: 66px;
+    margin-top: 60px;
+
+    &__compartir{
+        height: 50px;
+        width: 140px;
+        background: $nickel;
+        color: $color-white;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
+    &__compartir-twiter{
+        height: 50px;
+        width: 180px;
+        background: $nickel;
+        color: $color-white;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
+
+&__compartir:hover{
+    background: $light-gray;
+    border: 1px solid $nickel;
+}
+
+&__compartir-twiter:hover{
+    background: $light-gray;
+    border: 1px solid $nickel;
+}
+}
+
+// section buttons previous and next
+
+
+.section-botones{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 134px;
+     background-color:$light-gray;
+     border: 0.5px solid #12161917;
+     
+     
+    // &__nav{
+        //  display: inline-block;
+         
+        // }
+        
+        
+        &__border-ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            width: 400px;
+            height: 40px;
+            border: 1px solid $nickel;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        
+        }
+        &__border-li-previous{
+            display: flex;
+            align-items: center;
+            width: 80px;
+            background: $platinum;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+    
+}
+
+
+
+        &__border-li-next{
+            width: 80px;
+            background: $platinum;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px; 
+            display: flex;
+            align-items: center;
+
+
+        }
+        &__border-li{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid #daf10c;
+            width: 80px;
+        
+        }
+
+        &__a{
+    
+            text-decoration: none;
+            // border:1px solid rgb(15, 13, 22);
+            width: 80px;
+            background-color:$color-white;
+            border: 1px solid $platinum;
+            height: 100%;
+
+        }
+
+        &__a-previous{
+            text-decoration: none;
+        }
+        
+        &__a-next{
+            text-decoration: none;
+        }
+
+    
+    // &__next{
+    //     text-decoration: none;
+    //     margin: 10px;
+    // }
+    
+    // &__previus{
+    //     text-decoration: none;
+    //     margin: 10px;
+
+    // }
+ 
+}
+
+
+
+
